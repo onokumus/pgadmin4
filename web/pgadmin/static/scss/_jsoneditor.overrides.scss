@@ -94,7 +94,7 @@
 /* Mode drop-down */
 .jsoneditor-menu>.jsoneditor-modes>button:active,
 .jsoneditor-menu>.jsoneditor-modes>button:focus,
-.jsoneditor-menu>.jsoneditor-modes>button,{
+.jsoneditor-menu>.jsoneditor-modes>button {
     font-family: $font-family-primary !important;
     font-size: $font-size-base !important;
     line-height: $line-height-base !important;
@@ -284,7 +284,7 @@ div.jsoneditor-value[contenteditable=true]:hover
 }
 
 
-.jsoneditor-contextmenu .jsoneditor-menu button.jsoneditor-expand, {
+.jsoneditor-contextmenu .jsoneditor-menu button.jsoneditor-expand {
   height:0px;
   background-color: $color-gray-light !important;
 }
@@ -375,7 +375,7 @@ div.jsoneditor-value[contenteditable=true]:hover
 .jsoneditor-modal select,
 .jsoneditor-modal table td,
 .jsoneditor-modal table th,
-.jsoneditor-modal textarea, {
+.jsoneditor-modal textarea {
     color: $color-fg !important;
     background-color: $color-bg !important;
     font-size: $font-size-base !important;
